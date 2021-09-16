@@ -39,6 +39,18 @@
     <ClCompile Include="스택과 큐.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="이분 탐색, 이진 탐색.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="삽입정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="쉘 정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="미로찾기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="file.txt">
