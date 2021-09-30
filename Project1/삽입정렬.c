@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <windows.h>
 int InsertSort(int arr[],int n) {
 	int i, j, tmp;
 	for (int i = 1; i < n; i++) {
@@ -21,7 +22,10 @@ int InsertSort(int arr[],int n) {
 	}
 }
 int main() {
-	int list[5] = { 3,5,1,8,4 };
+	int list[10];
+	for (int i = 0; i < 10; i++) {
+		scanf("%d", &list[i]);
+	}
 	InsertSort(list, sizeof(list)/sizeof(int));
 	printf("°á°ú ");
 	for (int t = 0; t < sizeof(list) / sizeof(int); t++) {

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <windows.h>
 #define _CRT_SECURE_NO_WARNINGS
 void ShellSort(int arr[],int n) {
 	for (int gap = n / 2; gap > 0; gap /= 2) {
