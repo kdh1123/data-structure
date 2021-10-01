@@ -54,6 +54,9 @@
     <ClCompile Include="미로 2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="퀵 정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="file.txt">
