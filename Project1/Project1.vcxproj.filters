@@ -60,6 +60,9 @@
     <ClCompile Include="자구 수행평가 문제.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="대학 수준별 영어 수업.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="file.txt">
