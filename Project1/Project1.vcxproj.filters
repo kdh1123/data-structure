@@ -63,6 +63,12 @@
     <ClCompile Include="대학 수준별 영어 수업.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="노동자의 인권.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="자존심을 건 카드게임.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="file.txt">
