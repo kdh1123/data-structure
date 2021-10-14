@@ -2,7 +2,7 @@
 #pragma warning(disable:4996)
 # define MAX_SIZE 5
 # define SWAP(x, y, temp) ( (temp)=(x), (x)=(y), (y)=(temp) )
-int n = 10,cnt=0;
+int n = 7,cnt=0;
 int arr[10];
 void quicksort(int arr[], int left, int right) {
 	cnt++;
@@ -27,15 +27,19 @@ void quicksort(int arr[], int left, int right) {
 		SWAP(arr[i], arr[j], temp);
 
 	}
+	for (int i = 0; i < 7; i++) {
+		printf("%d ", arr[i]);
+	}
+	printf("\n");
 	quicksort(arr, left, j - 1);
 	quicksort(arr, j+1, right);
 }
 int main() {
-	for (int t = 0; t < 10; t++) {
+	for (int t = 0; t < 7; t++) {
 		scanf("%d", &arr[t]);
 	}
 	quicksort(arr, 0, n - 1);
-	for (int t = 0; t < 10; t++) {
+	for (int t = 0; t < 7; t++) {
 		printf("%d ", arr[t]);
 	}
 	printf("[%d]", cnt);
