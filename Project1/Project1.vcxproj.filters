@@ -72,6 +72,9 @@
     <ClCompile Include="17609.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DFS탐색.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="file.txt">
